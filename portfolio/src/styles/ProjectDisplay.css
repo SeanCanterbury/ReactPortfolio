@@ -9,8 +9,7 @@
   
   .project h1 {
     margin-top: 50px;
-    color: #3e497a;
-    font-size: 35px;
+    font-size: 50px;
   }
   .project img {
     width: 700px;
@@ -19,10 +18,8 @@
   
   .project p {
     font-size: 40px;
-    color: #3e497a;
   }
   
   .project svg {
     font-size: 60px;
-    color: #3e497a;
   }
