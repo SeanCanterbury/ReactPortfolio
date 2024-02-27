@@ -1,9 +1,41 @@
 import React from 'react'
+import "../styles/Home.css";
+import LinkedinIcon from '@material-ui/icons/LinkedIn';
+import GithubIcon from '@material-ui/icons/GitHub';
+import GmailIcon from '@material-ui/icons/Mail';
+
+
 
 function Home() {
-  return (<div className = "Home" >
-    <h1>Home</h1>
-  </div>);
+  return <div className = "home">
+    <div className = "about">
+      <h2>Sean Canterbury</h2>
+      <div className = "prompt"><p>A software engineer</p>
+      <LinkedinIcon />
+      <GithubIcon />
+      <GmailIcon />
+      </div>
+    </div>
+    <div className = "skills">
+      <h1>Skills</h1>
+      <ol className = "list">
+        <li className='item'>
+          <h2>Front-End</h2>
+          <span>HTML, CSS, JavaScript, React, React-Native</span>
+        </li>
+        <li className='item'>
+          <h2>Back-End</h2>
+          <span>Django, Flask, SQL, Database-Design, FastAPI, Git/Github, API-Development</span>
+        </li>
+        <li className='item'>
+          <h2>Languages And MISC</h2>
+          <span>Java, Python, C, C++, HTML/CSS, JavaScript, Agile-Development</span>
+        </li>
+        
+      </ol>
+    </div>
+  </div>;
+
 }
 
 export default Home;
