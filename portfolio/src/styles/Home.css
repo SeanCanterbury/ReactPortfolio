@@ -3,6 +3,15 @@
     align-items: center;
     font-family: "Arial", sans-serif;
   }
+
+  .portrait {
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #005035;
+  }
   
   .about {
     width: 100%;
