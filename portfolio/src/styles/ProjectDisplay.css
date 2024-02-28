@@ -1,6 +1,6 @@
 .project {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,6 +18,8 @@
 }
 
 .project p {
+  padding-left: 25%;
+  padding-right: 25%;
   font-size: 16px;
 }
 
@@ -28,7 +30,7 @@
 @media only screen and (max-width: 600px) {
   .project {
     height: auto;
-    padding: 20px;
+    padding: 0px;
   }
 
   .project h1 {
@@ -42,9 +44,12 @@
 
   .project p {
     font-size: 14px;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
   .project svg {
     font-size: 40px;
   }
 }
+

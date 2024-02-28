@@ -12,10 +12,20 @@
     align-items: center;
     background-color: #005035;
   }
+
+  @media only screen and (max-width: 600px) {
+    .portrait {
+      width: 50%;
+    }
+  }
   
+  .photo {
+    background-color: #005035;
+  }
+
   .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;

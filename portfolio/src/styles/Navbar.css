@@ -3,7 +3,10 @@
     height: 100px;
     background: #005035;
     font-family: "Arial", sans-serif;
+    overflow: hidden;
+    
   }
+  
   
   .links {
     width: 100%;

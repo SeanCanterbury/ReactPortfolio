@@ -2,6 +2,8 @@ import rmiHome from '../assets/rmiHome.png';
 import OCRScribe from '../assets/OCRScribe.png';
 import sandwich from '../assets/Ham_Sandwich_from_Southern_Living.jpg';
 import UNCC from '../assets/UNCC.png';
+import Queens from '../assets/8Queens.png';
+import FastFood from '../assets/fastfoodkitchen.webp';
 
 export const projectList = [
     {
@@ -16,7 +18,7 @@ export const projectList = [
         image: rmiHome,
         skills: "Django, React, RestfulAPI Git/Github, Agile-Development",
         description: "(Currently in Development) Proficiently engaged in full-stack web development, I seamlessly merged frontend design and backend implementation, leveraging technologies such as Python, HTML, CSS, and MySQL. Within an Agile development environment, I collaborated closely with a dynamic team of diverse students, ensuring the project's success through effective communication and teamwork. Taking charge of the project's database design and management, I led the team in crafting robust and efficient data handling solutions within MySQL, contributing significantly to the project's overall functionality and performance.",
-        githubLink: "https://github.com/ChillWampa/RateMyInternship-V2.0/"
+        githubLink: "https://github.com/SeanCanterbury/"
     },
     {
         name: "Sandwich Shop",
@@ -31,6 +33,20 @@ export const projectList = [
         skills: "ReactJS, Javascript, CSS, Git/Github",
         description: "I built this portfolio not only to showcase my skills in software development/web development, Github/git, HTML/CSS, and Javascript programming but also to showcase my projects in an organized and user-friendly experience. I did this while also linking to each project's respective GitHub repository for whoever is interested.",
         githubLink: "https://github.com/SeanCanterbury/ReactPortfolio"
+    },
+    {
+        name: "8 Queens",
+        image: Queens,
+        skills: "Java, Object Oriented Programming, Hillclimbing Algorithm",
+        description: "I developed an 8-Queens problem-solving algorithm using Java, Using object oriented programming to implement a Hill-Climbing algorithm with random resets. I used github for version control. This project was done to showcase my skills in Java along with programming intelegent Agents.",
+        githubLink: "https://github.com/SeanCanterbury/3153_AI_Assignments/tree/main/Assignment_1"
+    },
+    {
+        name: "Fast Food Kitchen",
+        image: FastFood,
+        skills: "Java, Object Oriented Programming",
+        description: "This was my final project for Intro to Computer Science II. I used Java to create a fast food kitchen simulation. I used object oriented programming to create a modular and scalable program. I used github for version control. This project was done to showcase my skills in Java along with OOP.",
+        githubLink: "https://github.com/SeanCanterbury/ResturantOrderFINAL"
     }
     
 ]
