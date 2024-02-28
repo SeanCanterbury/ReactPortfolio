@@ -17,9 +17,6 @@ function Home() {
       <h2>Sean Canterbury</h2>
       <div className = "prompt"><p>I'm a senior at UNC Charlotte set to graduate in May 2024. I'm pursuing my BS in Computer Science with a concentration in Software Systems and networks along with a minor in Mathematics.
       </p>
-      <LinkedinIcon />
-      <GithubIcon />
-      <GmailIcon />
       </div>
     </div>
     <div className = "skills">
