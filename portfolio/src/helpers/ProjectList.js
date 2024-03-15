@@ -4,6 +4,8 @@ import sandwich from '../assets/Ham_Sandwich_from_Southern_Living.jpg';
 import UNCC from '../assets/UNCC.png';
 import Queens from '../assets/8Queens.png';
 import FastFood from '../assets/fastfoodkitchen.webp';
+import a from '../assets/a*.png';
+
 
 export const projectList = [
     {
@@ -47,6 +49,13 @@ export const projectList = [
         skills: "Java, Object Oriented Programming",
         description: "This was my final project for Intro to Computer Science II. I used Java to create a fast food kitchen simulation. I used object oriented programming to create a modular and scalable program. I used github for version control. This project was done to showcase my skills in Java along with OOP.",
         githubLink: "https://github.com/SeanCanterbury/ResturantOrderFINAL"
+    },
+    {
+        name: "A* Search Algorithm",
+        image: a,
+        skills: "Java, Object Oriented Programming, A* Search Algorithm",
+        description: "This project is a demonstration of the A* search algorithm using the manhattan distance heuristic. I used Java to implement the algorithm and used github for version control. This project was done to showcase my skills in Java along with programming intelegent Agents. This program will randomly generate a 15 by 15 grid of nodes with 10% of them being unpathable. You then choose a start and goal node and watch as the program draws you the path from start to goal.",
+        githubLink: "https://github.com/SeanCanterbury/3153_AI_Assignments/tree/main/Assignment_2"
     }
     
 ]
