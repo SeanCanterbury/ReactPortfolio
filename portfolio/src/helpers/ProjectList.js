@@ -12,9 +12,10 @@ export const projectList = [
         name: "OCRScribe",
         image: OCRScribe,
         skills: "OCR Text Recgognition, React-native, Python, Flask, Git/Github, Agile-Development",
-        description: "(Currently In Process) I highlight my collaborative efforts with the National Security Agency (NSA) on a groundbreaking project that integrates Python, artificial intelligence (AI), and machine learning. Our objective was to pioneer a patented process utilizing Optical Character Recognition (OCR) to seamlessly convert handwritten text into machine-readable format. Operating within the agile framework, I assumed leadership responsibilities, guiding a team of fellow students to ensure timely and efficient achievement of project milestones. Emphasizing both user-friendliness and functionality, I am currently spearheading the implementation of OCRScribe functionality within a mobile application, aiming to enhance the accessibility of OCR technology to a wider audience.",
+        description: "I highlight my collaborative efforts with the National Security Agency (NSA) on a groundbreaking project that integrates Python, artificial intelligence (AI), and machine learning. Our objective was to pioneer a patented process utilizing Optical Character Recognition (OCR) to seamlessly convert handwritten text into machine-readable format. Operating within the agile framework, I assumed leadership responsibilities, guiding a team of fellow students to ensure timely and efficient achievement of project milestones. Emphasizing both user-friendliness and functionality.",
         githubLink: "https://github.com/SeanCanterbury/OCRScribe"
     },
+    /*
     {
         name: "Rate My Internship",
         image: rmiHome,
@@ -22,6 +23,7 @@ export const projectList = [
         description: "(Currently in Development) Proficiently engaged in full-stack web development, I seamlessly merged frontend design and backend implementation, leveraging technologies such as Python, HTML, CSS, and MySQL. Within an Agile development environment, I collaborated closely with a dynamic team of diverse students, ensuring the project's success through effective communication and teamwork. Taking charge of the project's database design and management, I led the team in crafting robust and efficient data handling solutions within MySQL, contributing significantly to the project's overall functionality and performance.",
         githubLink: "https://github.com/SeanCanterbury/"
     },
+    */
     {
         name: "Sandwich Shop",
         image: sandwich,

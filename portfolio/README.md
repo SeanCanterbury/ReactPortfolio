@@ -71,3 +71,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 vercel --prod
+
+Added the experiences pages, currently the experience button on the navbar just brings you to the gilero page as that is the only experience, to add more experience the list page is already included youll have to change the navbar.js file to navigate you to that page.

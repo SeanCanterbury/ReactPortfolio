@@ -13,7 +13,7 @@ function Navbar() {
     useEffect(() => {
         setExpandNavbar(false);
     }, [location])
-
+    //change the Experience link to /experience when adding more experience items
     return (<div className="navbar" id = {expandNavbar ? "open" : "close"}>
         <div className = "toggleButton">
             <button onClick = {() => {
@@ -27,6 +27,7 @@ function Navbar() {
             <Link to = "/"> Home </Link>
             <Link to = "/projects"> Projects </Link>
             <Link to = "/resume"> Resume </Link>
+            <Link to = "/experience/0"> Experience </Link>
         </div>
     </div>);
 }

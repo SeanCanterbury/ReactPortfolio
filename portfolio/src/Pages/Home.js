@@ -4,6 +4,7 @@ import LinkedinIcon from '@material-ui/icons/LinkedIn';
 import GithubIcon from '@material-ui/icons/GitHub';
 import GmailIcon from '@material-ui/icons/Mail';
 import portrait from '../assets/portrait.png';
+import gradPhoto from '../assets/gradPhoto.png';
 
 
 
@@ -12,16 +13,19 @@ function Home() {
     
     <div className = "about">
     <div className = "photo">
-    <img className = "portrait" src= {portrait} />
+    <img className = "portrait" src= {gradPhoto} />
     </div>
       <h2>Sean Canterbury</h2>
-      <div className = "prompt"><p>I'm a senior at UNC Charlotte set to graduate in May 2024. I'm pursuing my BS in Computer Science with a concentration in Software Systems and networks along with a minor in Mathematics.
-      </p>
+      <div className = "prompt"><p>Welcome to my portfolio! I have a Bachelor of Science in Computer Science as well as a Minor in Mathematics from UNC Charlotte. I have developed a strong foundation of software development skills through my education as well as through development experience you can view on the projects page.</p>
       </div>
     </div>
     <div className = "skills">
       <h1>Skills</h1>
       <ol className = "list">
+      <li className='item'>
+          <h2>Professional Skills</h2>
+          <span>Software Verification and Validation, Unit and Integration Test Development, Hazard/Risk Analysis (dFMEA) </span>
+        </li>
         <li className='item'>
           <h2>Front-End</h2>
           <span>HTML, CSS, JavaScript, React, React-Native</span>
